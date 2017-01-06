@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements AppBarLayout.OnOf
     private static final float PERCENTAGE_TO_SHOW_TITLE_AT_TOOLBAR  = 0.9f;
     private static final float PERCENTAGE_TO_HIDE_TITLE_DETAILS     = 0.3f;
     private static final int ALPHA_ANIMATIONS_DURATION              = 200;
-    final Uri imageUri = Uri.parse("http://kingofwallpapers.com/underworld/underworld-011.jpg");
+    final Uri imageUri = Uri.parse("https://cdn.pixabay.com/photo/2016/09/07/11/37/tropical-1651423_960_720.jpg");
 
     private boolean mIsTheTitleVisible          = false;
     private boolean mIsTheTitleContainerVisible = true;
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements AppBarLayout.OnOf
 
         //set avatar and cover
         avatar.setImageURI(imageUri);
-        coverImage.setImageResource(R.drawable.cover);
+        coverImage.setImageResource(R.drawable.lagu);
     }
 
     @Override
